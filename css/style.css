@@ -1,11 +1,15 @@
-body {
-  background-color: blue;
+body{
+font-size: 16px;
+  font-family: Georgia, serif;
+  line-height: 1.5;
+  font-style: italic;
+  border-top: 30px solid #111;
+  border-bottom: 30px solid #111;
+  background-color: rgb(210,210,210);
+  padding: 30px
 }
-body {margin-bottom: black;}
-h1 {
-  font-size: 73px;
-  margin-bottom: 30px;
+.projects{
 }
-p { 
-  font-family: sans-serif;
+h2{
+opacity: .7;
 }
