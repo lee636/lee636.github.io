@@ -5,7 +5,7 @@ body{
 	
 }
 h1{
-	border: 2px solid #deded9;
+	border: 5px solid #deded9;
 	font-family:'Century Gothic';
 	font-size: 50px;
 	color:#deded9;
@@ -39,6 +39,7 @@ h1{
 	width: 100px;
 	height:20px;
 }
+
 .intro{
 	margin-top: 20px;
 	font-size: 18px;	
@@ -59,7 +60,28 @@ h1{
 	background-color: #07274b;
 	border-radius :5px;
 	padding-top: 15px;
-	padding-left: 60px
+	padding-left: 60px;
+	position:relative;
+}
+.projects2{
+	width: 200px;
+	height:50px;
+	background-color: #07274b;
+	border-radius :5px;
+	padding-top: 15px;
+	padding-left: 60px;
+	margin-top: 15px;
+	position:relative;
+}
+.projects3{
+	width: 200px;
+	height:50px;
+	background-color: #07274b;
+	border-radius :5px;
+	padding-top: 15px;
+	padding-left: 30px;
+	margin-top: 15px;
+	position:relative;
 }
 a{
 	width:300px;
@@ -75,4 +97,81 @@ a{
 	height:30px;
 	background-color: #07274b;
 }
+@media (max-width: 600px) {
+	.show-desktop {
+		display: none;
+	}
 
+	.show-mobile {
+		display: block;
+	}
+
+body{
+	font-family: Helvetica;
+	background-color: #2c699d	
+}
+h1{
+	border: 1px solid #deded9;
+	font-family:'Century Gothic';
+	font-size: 30px;
+	color:#deded9;
+	letter-spacing: 2px;
+	width:200px;
+	margin:10px auto;
+	text-align: center;}
+.back{
+	width: 100%;
+	height: auto;
+	position: static;
+	opacity:.8
+}
+.intro{
+	margin-top: 10px;
+	font-size: 9px;	
+	font-family: 'Century Gothic';
+	text-align:center;
+	color: #deded9;
+}
+.fall {
+	font-family:'Century Gothic';
+	color: #deded9;
+	font-size:35px;
+	margin-top: 20px;
+	margin-bottom: 35px;
+	margin-left: 20px;
+	position: static;
+}
+.projects{
+	width: 200px;
+	height:50px;
+	background-color: #07274b;
+	border-radius :5px;
+	padding-top: 15px;
+	padding-left: 60px;
+	position:relative;
+	margin-top: 15px;
+	margin-left: 50px;
+}
+.projects2{
+	width: 200px;
+	height:50px;
+	background-color: #07274b;
+	border-radius :5px;
+	padding-top: 15px;
+	padding-left: 60px;
+	margin-top: 15px;
+	margin-top: 15px;
+	position:relative;
+	margin-left: 50px;
+}
+.projects3{
+	width: 200px;
+	height:50px;
+	background-color: #07274b;
+	border-radius :5px;
+	padding-top: 15px;
+	padding-left: 30px;
+	margin-top: 15px;
+	position:relative;
+	margin-left: 50px;
+}
