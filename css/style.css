@@ -1,8 +1,7 @@
 
 body{
 	font-family: Helvetica;
-	background-color: #2c699d
-	
+	background-color: #2c699d	
 }
 h1{
 	border: 5px solid #deded9;
@@ -18,7 +17,6 @@ h1{
 	position: relative;
 	margin-bottom: 0px
 }
-
 .back{
 	width: 100%;
 	height: auto;
@@ -39,7 +37,6 @@ h1{
 	width: 100px;
 	height:20px;
 }
-
 .intro{
 	margin-top: 20px;
 	font-size: 18px;	
@@ -83,8 +80,7 @@ h1{
 	margin-top: 15px;
 	position:relative;
 }
-a{
-	width:300px;
+a{	width:300px;
 	height: 100px;
 	color: #deded9;
 	font-size: 18px;
